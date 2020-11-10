@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  private usuario = {};
+
   constructor() { }
 
   vaiFormulario() {
-    alert("aew");
+    console.log(this.usuario);
   }
 
 }
