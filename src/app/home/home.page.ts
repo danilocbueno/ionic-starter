@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  private usuario = {};
+  public usuario: any = {};
 
   constructor() { }
 
